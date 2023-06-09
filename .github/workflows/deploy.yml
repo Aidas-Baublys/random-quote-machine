@@ -49,5 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
